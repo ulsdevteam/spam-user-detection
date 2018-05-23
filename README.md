@@ -1,4 +1,4 @@
-# spam-user-detection
+# Spam User Detection
 
 This application helps in detection of spam users in Drupal, by analyzing the dataset and doing feature selection and finally ending with a decision tree.
 
@@ -14,11 +14,11 @@ This is an application which can either be run on a jupyter notebook or for feas
 
 1) You need to copy the 'spam_trap.py', 'actual_words.csv', 'spamwords.csv','term_frequency.csv' files to your cgi-bin folder.
 
-2) Also create a folder 'uni' in your public directory '/var/www/html'. Setting the access for this folder to 777.
+2) Also create a folder `uni` in your public directory `/var/www/html`. Setting the access for this folder to 777.
 
 3) Change the 'Timeout value to 400' in your web server conf file.
 
-4) Now go to your python3.6 location, make sure the location is '/usr/local/bin/python3.6' or you can also have it any location and change the 'spam_trap.py' script to start with the 'shebang' of the desired location , there will be a pip file out here. You would need to run the following commands to install the dependencies for this project.
+4) Now go to your python3.6 location, the location should be `/usr/local/bin/python3.6` or you can also have it any other location and change the `spam_trap.py` script to start with the `shebang` of the desired location , in the bin there will be a pip file out here. You would need to run the following commands to install the dependencies for this project.
 
 ```bash
 $ pip install numpy
