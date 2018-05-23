@@ -18,7 +18,7 @@ This is an application which can either be run on a jupyter notebook or for feas
 
 3) Change the 'Timeout value to 400' in your web server conf file.
 
-4) Now go to your python3.6 location, the location should be `/usr/local/bin/python3.6` or you can also have it any other location and change the `spam_trap.py` script to start with the `shebang` of the desired location , in the bin there will be a pip file out here. You would need to run the following commands to install the dependencies for this project.
+4) Now go to your python3.6 location, the location should be `/usr/local/bin/python3.6` or you can also have it any other location and change the `spam_trap.py` script to start with the `shebang` of the desired location. You would need to run the following commands to install the dependencies for this project.
 
 ```bash
 $ pip install numpy
